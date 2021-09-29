@@ -1,7 +1,7 @@
 # distributed_storage
 
 how to find peers by hash in ipfs:
-
+```javascript
   const info = await ipfs.dht.findPeer('QmcZf59bWwK5XFi76CZX8cbJ4BhTzzA3gU1ZjYZcYW3dwt')
 
   console.log(info.id)
@@ -17,3 +17,4 @@ how to find peers by hash in ipfs:
   /ip6/2604:1380:3000:1f00::1/tcp/4001
   /ip4/147.75.94.115/tcp/4001
   */
+```
