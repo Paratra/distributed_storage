@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Test</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="card">
+      <h1>Upload File</h1>
+      <form ref='uploadForm' 
+      id='uploadForm' 
+      action='/upload'
+      method='post' 
+      encType="multipart/form-data">
+         <input type="file" class="upload" name="uploadedFile">
+         <button type="submit">Upload</button>
+      </form>
+   </div>
+
+   <div class="card">
+      <h1>Download File</h1>
+      <div id="storedList"></div>
+   </div>
+
+    <!-- <div id="drop_zone">
+		<p>Drag one or more files to this Drop Zone ...</p>
+	</div> -->
+
+  <script src="index.js"></script>
+</body></html>
